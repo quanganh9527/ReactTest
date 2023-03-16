@@ -38,6 +38,14 @@ class Home extends Component {
         >
           <Text>Next</Text>
         </Button>
+        <Button
+          style={{ width: 100, alignItems: "center", justifyContent: "center" }}
+          rounded
+          danger
+          onPress={() => this.props.navigation.navigate("Detail")}
+        >
+          <Text>New</Text>
+        </Button>
       </View>
     );
   }
