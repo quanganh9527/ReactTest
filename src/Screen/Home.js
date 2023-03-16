@@ -46,6 +46,14 @@ class Home extends Component {
         >
           <Text>New</Text>
         </Button>
+        <Button
+          style={{ width: 100, alignItems: "center", justifyContent: "center" }}
+          rounded
+          danger
+          onPress={() => this.props.navigation.navigate("Detail")}
+        >
+          <Text>Cancel</Text>
+        </Button>
       </View>
     );
   }
