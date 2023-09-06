@@ -44,7 +44,7 @@ class Home extends Component {
           danger
           onPress={() => this.props.navigation.navigate("Detail")}
         >
-          <Text>New</Text>
+          <Text>Next</Text>
         </Button>
         <Button
           style={{ width: 100, alignItems: "center", justifyContent: "center" }}
