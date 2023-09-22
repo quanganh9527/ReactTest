@@ -44,7 +44,7 @@ class Home extends Component {
           danger
           onPress={() => this.props.navigation.navigate("Detail")}
         >
-          <Text>Next1</Text>
+          <Text>Next2</Text>
         </Button>
       </View>
     );
